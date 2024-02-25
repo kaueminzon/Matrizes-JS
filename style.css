@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.314), rgb(100, 100, 247));
+}
+
+#table-container {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 10px;
+    position: relative;
+    z-index: 2;
+    border-radius: 2px;
+}
+
+#table-container th {
+    border: 1px solid #000000;
+    padding: 15px;
+    text-align: left;
+    border-radius: 2px;
+
+}
+
+#table-container td {
+    border: 1px solid #000000;
+    padding: 13px;
+    text-align: left;
+    margin-right: 10px;
+    min-width: 30px;
+    border-radius: 2px;
+}
+
+#table-container td:hover {
+    font-size: 19px;
+}
+
+#table-container th {
+
+    color: rgb(0, 0, 0);
+}
+
+
+#table-container tr:hover {
+    background-color: #3389facf;
+}
+
+#teams-table .posicao-0, 
+#teams-table .posicao-1,
+#teams-table .posicao-2,
+#teams-table .posicao-3,
+#teams-table .posicao-4,
+#teams-table .posicao-5,
+#teams-table .posicao-6,
+#teams-table .posicao-7 {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+#teams-table .posicao-0 img {
+    margin-right: 20px; 
+    margin-left: 15px;    
+}
+
+#teams-table .posicao-1 img,
+#teams-table .posicao-7 img {
+    margin-right: 26px;
+    margin-left: 15px;
+}
+
+#teams-table .posicao-2 img {
+    margin-left: 15px;
+    margin-right: 19px;
+}
+
+#teams-table .posicao-3 img {
+    margin-left: 15px;
+    margin-right: 6px;
+}
+
+#teams-table .posicao-4 img {
+    margin-left: 15px;
+    margin-right: 37px;
+}
+
+#teams-table .posicao-5 img {
+    margin-right: 28px;
+    margin-left: 15px;
+}
+
+#teams-table .posicao-6 img {
+    margin-right: 30px;
+    margin-left: 15px;
+}
+
+
